@@ -1,0 +1,25 @@
+{
+  "name": "team-about-page-generator",
+  "version": "1.0.0",
+  "description": "Generates a simple webpage that shows a list of team members and some information on each of them based on a set of prompts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingPogona/team-about-page-generator.git"
+  },
+  "author": "Asher Clawson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KingPogona/team-about-page-generator/issues"
+  },
+  "homepage": "https://github.com/KingPogona/team-about-page-generator#readme",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
