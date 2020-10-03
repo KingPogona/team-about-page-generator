@@ -4,15 +4,15 @@ const Manager = require('../lib/Manager.js');
 
 for (let i = 0; i < 100; i++) {
     test('creates a Manager object', () => {
-        const testID = Math.floor((Math.random() * 100) + 1);
+        const testEmployeeID = Math.floor((Math.random() * 100) + 1);
         const testOfficeNumber = Math.floor((Math.random() * 100) + 102);
 
-        const manager = new Manager('testName', testID, 'test@email.com', testOfficeNumber);
+        const manager = new Manager('testName', testEmployeeID, 'test@email.com', testOfficeNumber);
 
         // console.log(manager);
 
         expect(manager.name).toBe('testName');
-        expect(manager.id).toBe(testID);
+        expect(manager.id).toBe(testEmployeeID);
         expect(manager.email).toBe('test@email.com');
         expect(manager.role).toBe('Manager')
         expect(manager.officeNumber).toBe(testOfficeNumber);
