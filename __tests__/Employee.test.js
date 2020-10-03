@@ -27,7 +27,7 @@ test('gets id for employee', () => {
     expect(employee.getID()).toBe(0);
 });
 
-test('gets name of employee', () => {
+test('gets email of employee', () => {
     const employee = new Employee('testName', 0, 'test@email.com');
 
     expect(employee.getEmail()).toBe('test@email.com');
