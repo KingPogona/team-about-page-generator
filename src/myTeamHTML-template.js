@@ -1,3 +1,5 @@
+// get the array of all employees and filter which employee type it is.
+// build the appropriate card for each employee based on employee type.
 const generateTeamMembers = employeesArr => {
     return `
         ${employeesArr
@@ -102,8 +104,6 @@ const generateTeamMembers = employeesArr => {
 
 // generates the layout of the My Team Page and exports it for use.
 module.exports = templateData => {
-    // console.log(templateData);
-    // console.log(templateData[0].getName());
 
     return `
     <!DOCTYPE html>
