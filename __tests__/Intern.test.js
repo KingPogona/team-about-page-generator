@@ -9,7 +9,7 @@ for (let i = 0; i < 100; i++) {
 
         const intern = new Intern('testName', testEmployeeID, 'test@email.com', 'testSchool');
 
-        console.log(intern);
+        // console.log(intern);
 
         expect(intern.name).toBe('testName');
         expect(intern.id).toBe(testEmployeeID);
@@ -29,7 +29,7 @@ test('gets name of Intern', () => {
 test('gets id of Intern', () => {
     const intern = new Intern('testName', 0, 'test@email.com', 'testSchool');
 
-    expect(intern.getID()).toBe(0);
+    expect(intern.getId()).toBe(0);
 });
 
 test('gets email of Intern', () => {

@@ -29,7 +29,7 @@ test('gets name of Manager', () => {
 test('gets id of Manager', () => {
     const manager = new Manager('testName', 0, 'test@email.com', 101);
 
-    expect(manager.getID()).toBe(0);
+    expect(manager.getId()).toBe(0);
 });
 
 test('gets email of Manager', () => {
